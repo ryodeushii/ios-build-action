@@ -7,7 +7,7 @@ if ! type fastlane > /dev/null 2>&1; then
     sudo gem install fastlane -NV
   fi
 fi
-
+env
 script_path=$(cd $(dirname ${0}); pwd)
 cp -r ${script_path}/fastlane ./
 fastlane export_ipa
