@@ -1,4 +1,4 @@
-name: "iOS Build Action"
+name: "iOS Action (Fastlane)"
 description: "Build iOS project (.xcodeproj, .xcworkspace), and export ipa"
 inputs:
   p12-key-base64:

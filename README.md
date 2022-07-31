@@ -1,5 +1,9 @@
 # iOS Build Action
 
+```
+originally this action is from https://github.com/yukiarrr/ios-build-action
+but because of no update for at least a year decided to make some patches myself
+```
 This action build iOS project. (.xcodeproj, .xcworkspace)
 
 And can export to ipa, so it can be continuously delivered to DeployGate and TestFlight.

@@ -9,15 +9,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/yukiarrr/ios-build-action.git"
+    "url": "git+ssh://git@github.com/ryodeushii/ios-build-action.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/yukiarrr/ios-build-action/issues"
+    "url": "https://github.com/ryodeushii/ios-build-action/issues"
   },
-  "homepage": "https://github.com/yukiarrr/ios-build-action#readme",
+  "homepage": "https://github.com/ryodeushii/ios-build-action#readme",
   "dependencies": {
     "@actions/core": "^1.2.6",
     "@actions/exec": "^1.0.3",
