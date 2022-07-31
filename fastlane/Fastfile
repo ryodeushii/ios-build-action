@@ -63,11 +63,7 @@ platform :ios do
     update_code_signing_settings(
       use_automatic_signing: false,
       path: ENV['PROJECT_PATH'],
-      code_sign_identity: if !ENV['CODE_SIGNING_IDENTITY'].empty?
-            ENV['CODE_SIGNING_IDENTITY']
-          else
-            'iPhone Developer'
-          end,
+      code_sign_identity: 'iPhone Developer',
       targets: update_targets
     )
 
